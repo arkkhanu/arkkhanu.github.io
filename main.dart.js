@@ -94295,7 +94295,7 @@ s=J.i(m,!0)?8:10
 break
 case 8:i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Authentication/Authenticate"),B.q.fo(A.ad(["mobileNo",a,"userPassword",b],i,i),null),A.ad(["content-type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Access-Control-Allow-Origin, Accept"],i,i)).d0(0,B.U),$async$wi)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Authentication/Authenticate"),B.q.fo(A.ad(["mobileNo",a,"userPassword",b],i,i),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wi)
 case 11:l=a1
 i=t.X
 if(l.b===200){h=l
@@ -94349,7 +94349,7 @@ s=J.i(m,!0)?8:10
 break
 case 8:i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserRegistration/UserRegistration"),B.q.fo(b.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wR)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserRegistration/UserRegistration"),B.q.fo(b.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wR)
 case 11:l=a1
 i=t.X
 if(l.b===200){h=l
@@ -94401,7 +94401,7 @@ case 7:m=b
 s=J.i(m,!0)?8:10
 break
 case 8:s=11
-return A.y(A.aPq(A.d_("http://172.16.169.29:8080/api/GetAllBank/GetAllBank")).d0(0,B.U),$async$to)
+return A.y(A.aPq(A.d_("http://203.92.5.166:10000/api/GetAllBank/GetAllBank")).d0(0,B.U),$async$to)
 case 11:l=b
 i=t.X
 if(l.b===200){h=l
@@ -94458,7 +94458,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/GetAllBeneficiary"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tp)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/GetAllBeneficiary"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tp)
 case 11:k=a1
 h=t.X
 if(k.b===200){f=k
@@ -94515,7 +94515,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/GetAllBeneficiary_DigitalCheque"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tr)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/GetAllBeneficiary_DigitalCheque"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tr)
 case 11:k=a1
 h=t.X
 if(k.b===200){f=k
@@ -94567,7 +94567,7 @@ case 7:m=b
 s=J.i(m,!0)?8:10
 break
 case 8:s=11
-return A.y(A.aPq(A.d_("http://172.16.169.29:8080/api/GetAllBeneficiaryType/GetAllBeneficiaryType")).d0(0,B.U),$async$tx)
+return A.y(A.aPq(A.d_("http://203.92.5.166:10000/api/GetAllBeneficiaryType/GetAllBeneficiaryType")).d0(0,B.U),$async$tx)
 case 11:l=b
 i=t.X
 if(l.b===200){h=l
@@ -94626,7 +94626,7 @@ g=h
 l=g==null?0:g
 h=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/VerifyBeneficiaryUserChequeIssue"),B.q.fo(A.ad(["userId",l,"mobileNo",a1,"cnicNo",a0],h,t.K),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$k0)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/VerifyBeneficiaryUserChequeIssue"),B.q.fo(A.ad(["userId",l,"mobileNo",a1,"cnicNo",a0],h,t.K),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$k0)
 case 11:k=a3
 h=t.X
 if(k.b===200){f=k
@@ -94684,7 +94684,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.x=i==null?0:i
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/AddBeneficiary"),B.q.fo(a,null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$kx)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/AddBeneficiary"),B.q.fo(a,null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$kx)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -94742,7 +94742,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.x=i==null?0:i
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/UpdateBeneficiary"),B.q.fo(a,null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$li)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/UpdateBeneficiary"),B.q.fo(a,null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$li)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -94800,7 +94800,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/GetSingleBeneficiary"+("?Userid="+A.e(l)+"&userMobileNo1="+a0)),null,null).d0(0,B.U),$async$tS)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/GetSingleBeneficiary"+("?Userid="+A.e(l)+"&userMobileNo1="+a0)),null,null).d0(0,B.U),$async$tS)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -94859,7 +94859,7 @@ g=h
 l=g==null?0:g
 h=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/DeleteBeneficiary"),B.q.fo(A.ad(["userid",l,"userMobileNo1",a1,"isActive",a0],h,t.K),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$uV)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/DeleteBeneficiary"),B.q.fo(A.ad(["userid",l,"userMobileNo1",a1,"isActive",a0],h,t.K),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$uV)
 case 11:k=a3
 h=t.X
 if(k.b===200){f=k
@@ -94916,7 +94916,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Account/GetAllAccount"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tn)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Account/GetAllAccount"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tn)
 case 11:k=a1
 h=t.X
 if(k.b===200){f=k
@@ -94971,7 +94971,7 @@ case 8:i=$.ar
 i=(i==null?$.ar=new A.bO():i).a
 i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 s=11
-return A.y(A.aPq(A.d_("http://172.16.169.29:8080/api/GetAllLeaf/GetAllLeaf")).d0(0,B.U),$async$k5)
+return A.y(A.aPq(A.d_("http://203.92.5.166:10000/api/GetAllLeaf/GetAllLeaf")).d0(0,B.U),$async$k5)
 case 11:l=b
 i=t.X
 if(l.b===200){h=l
@@ -95029,7 +95029,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/UserChequeIssueWithsigned"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wG)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/UserChequeIssueWithsigned"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wG)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -95087,7 +95087,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/UpdateUserChequewithStatus"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$k_)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/UpdateUserChequewithStatus"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$k_)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -95145,7 +95145,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.dy=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/ChequeClearing/Chequeclearing"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$p8)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/ChequeClearing/Chequeclearing"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$p8)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -95203,7 +95203,7 @@ i=i==null?null:A.cD(J.d(i.a,"userId_I"))
 a.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/UpdateUserChequeIssueWithsigned"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$xb)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/UpdateUserChequeIssueWithsigned"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$xb)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -95263,7 +95263,7 @@ l=g==null?0:g
 a0.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 h=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/GetAllCheque"+("?Userid="+A.e(l)+"&Status="+A.e(a0.z))),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$tt)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/GetAllCheque"+("?Userid="+A.e(l)+"&Status="+A.e(a0.z))),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$tt)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95328,7 +95328,7 @@ k=e==null?"":e
 a2.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 g=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/GetAllChequeForAcknowledge"+("?Userid="+A.e(l)+"&Status="+A.e(a2.z)+"&UsermobileNo1="+A.e(k))),B.q.fo(a2.c6(),null),A.ad(["content-type","application/json"],g,g)).d0(0,B.U),$async$tu)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/GetAllChequeForAcknowledge"+("?Userid="+A.e(l)+"&Status="+A.e(a2.z)+"&UsermobileNo1="+A.e(k))),B.q.fo(a2.c6(),null),A.ad(["content-type","application/json"],g,g)).d0(0,B.U),$async$tu)
 case 11:j=a4
 g=t.X
 if(j.b===200){d=j
@@ -95388,7 +95388,7 @@ l=g==null?0:g
 a0.e=A.ke("dd/MM/yyyy hh:mm:ss").fp(new A.n(Date.now(),!1))
 h=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/GetChequesByUserIdAndPayeeStatus"+("?Userid="+A.e(l)+"&Status=Revoked")),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$tv)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/GetChequesByUserIdAndPayeeStatus"+("?Userid="+A.e(l)+"&Status=Revoked")),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$tv)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95450,7 +95450,7 @@ g=g==null?null:A.cD(J.d(g.a,"bankId_I"))
 e=g
 k=e==null?0:e
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/AddNewChequeBookRequest/GetAllChequeBooksByUserIdAndBank"+("?UserId="+A.e(l)+"&BankId="+A.e(k))),null,null).d0(0,B.U),$async$ts)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/AddNewChequeBookRequest/GetAllChequeBooksByUserIdAndBank"+("?UserId="+A.e(l)+"&BankId="+A.e(k))),null,null).d0(0,B.U),$async$ts)
 case 11:j=a3
 g=t.X
 if(j.b===200){d=j
@@ -95504,7 +95504,7 @@ s=J.i(m,!0)?8:10
 break
 case 8:i=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/AddNewChequeBookRequest/AddNewChequeBookRequest"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wT)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/AddNewChequeBookRequest/AddNewChequeBookRequest"),B.q.fo(a.c6(),null),A.ad(["content-type","application/json"],i,i)).d0(0,B.U),$async$wT)
 case 11:l=a0
 i=t.X
 if(l.b===200){h=l
@@ -95562,7 +95562,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/GetAllChequePayorLogFilter"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$wd)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/GetAllChequePayorLogFilter"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$wd)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95620,7 +95620,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/UserChequeIssueWithsigned/GetAllChequePayeeLog"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$v6)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/UserChequeIssueWithsigned/GetAllChequePayeeLog"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$v6)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95677,7 +95677,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/DigitalCheque/GetDataFromDigitalChequeImage"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$jh)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/DigitalCheque/GetDataFromDigitalChequeImage"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$jh)
 case 11:k=a1
 h=t.X
 if(k.b===200){f=k
@@ -95736,7 +95736,7 @@ l=A.aY1(a0.c6())
 k=A.aXt(null)
 g=t.z
 s=11
-return A.y(k.YI("http://172.16.169.29:8080/api/ChequeClearing/Prepare_DigitalCheque",l,A.aZ1(!1,A.ad(["content-type","multipart/form-data"],t.N,g),new A.aaL()),g).d0(0,B.U),$async$vr)
+return A.y(k.YI("http://203.92.5.166:10000/api/ChequeClearing/Prepare_DigitalCheque",l,A.aZ1(!1,A.ad(["content-type","multipart/form-data"],t.N,g),new A.aaL()),g).d0(0,B.U),$async$vr)
 case 11:j=a2
 f=t.X
 if(j.d===200){i=A.dt(j.a,g)
@@ -95794,7 +95794,7 @@ l=g==null?0:g
 a0.r=l
 h=t.N
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/Beneficiary/BeneficiaryCheck_DigitalCheque"),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$kH)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/Beneficiary/BeneficiaryCheck_DigitalCheque"),B.q.fo(a0.c6(),null),A.ad(["content-type","application/json"],h,h)).d0(0,B.U),$async$kH)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95868,7 +95868,7 @@ e.k(0,"chequeNo",a1.Q)
 l=A.aY1(e)
 k=A.aXt(null)
 s=11
-return A.y(k.YI("http://172.16.169.29:8080/api/ChequeClearing/UpdateDigitalChequeStatus",l,A.aZ1(!1,A.ad(["content-type","multipart/form-data"],g,f),new A.aaK()),f).d0(0,B.U),$async$kv)
+return A.y(k.YI("http://203.92.5.166:10000/api/ChequeClearing/UpdateDigitalChequeStatus",l,A.aZ1(!1,A.ad(["content-type","multipart/form-data"],g,f),new A.aaK()),f).d0(0,B.U),$async$kv)
 case 11:j=a3
 g=t.X
 if(j.d===200){i=A.dt(j.a,f)
@@ -95924,7 +95924,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/ChequeClearing/GetFilterd_DigitalCheque"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$vC)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/ChequeClearing/GetFilterd_DigitalCheque"+("?Userid="+A.e(l)+"&FilterStatus="+a0)),null,null).d0(0,B.U),$async$vC)
 case 11:k=a2
 h=t.X
 if(k.b===200){f=k
@@ -95981,7 +95981,7 @@ h=h==null?null:A.cD(J.d(h.a,"userId_I"))
 g=h
 l=g==null?0:g
 s=11
-return A.y(A.em(A.d_("http://172.16.169.29:8080/api/ChequeClearing/GetDigitalChequeByUserId"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tq)
+return A.y(A.em(A.d_("http://203.92.5.166:10000/api/ChequeClearing/GetDigitalChequeByUserId"+("?Userid="+A.e(l))),null,null).d0(0,B.U),$async$tq)
 case 11:k=a1
 h=t.X
 if(k.b===200){f=k
